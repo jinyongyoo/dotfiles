@@ -2556,4 +2556,7 @@ endif
 
 " }}}
 
+
+let g:python_host_prog='$HOME/miniconda3/bin/python'
+
 " vim: set ts=2 sts=2 sw=2 foldmethod=marker:

@@ -262,4 +262,5 @@ if [ -n "$ZSH_PROFILE_LOG" ]; then
   zprof >! "$ZSH_PROFILE_LOG"
 fi
 
+source $HOME/miniconda3/bin/activate
 # vim: set ts=2 sts=2 sw=2:
