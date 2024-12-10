@@ -42,6 +42,9 @@ Plug 'sheerun/vim-polyglot', {'tag': 'v4.2.1'}
 Plug 'tmux-plugins/vim-tmux'
 Plug 'fladson/vim-kitty', { 'for': ['kitty'] }
 
+" Custom by Jeffrey
+Plug 'airblade/vim-gitgutter'
+
 " =======================================================
 " Additional, optional local plugins
 " =======================================================

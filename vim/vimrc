@@ -1241,7 +1241,7 @@ endif
 " For neovim + lazy.nvim: see init.lua
 if !has('nvim-0.8') && !exists('g:colors_name')
   try
-    silent! colorscheme xoria256-wook
+    silent! colorscheme gruvbox
   catch /E185/  " Cannot find color scheme
     silent! colorscheme evening
   endtry
@@ -2566,3 +2566,5 @@ endif
 " }}}
 
 " vim: set ts=2 sts=2 sw=2 foldmethod=marker:
+"
+set updatetime=100
